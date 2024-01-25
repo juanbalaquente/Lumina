@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+    <title>Aulas </title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="../images/favicon01.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800%7CPoppins:300,400,700">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/style.css" id="main-styles-link">
+    <style>
+        .ie-panel {
+            display: none;
+            background: #212121;
+            padding: 10px 0;
+            box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+            clear: both;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        html.ie-10 .ie-panel,
+        html.lt-ie-10 .ie-panel {
+            display: block;
+        }
+
+        body {
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        #video-frame {
+            width: 80%;
+            position: relative;
+            left: 10%;
+            height: 60vh;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .steps-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .step {
+            flex: 0 0 30%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .back-button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="preloader">
+        <div class="preloader-logo"><img src="images/lumina04.png" alt="" width="151" height="44" srcset="images/lumina04.png 2x"/>
+        </div>
+        <div class="preloader-body">
+          <div id="loadingProgressG">
+            <div class="loadingProgressG" id="loadingProgressG_1"></div>
+          </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <!-- Page Header -->
+        <header class="section novi-background page-header">
+            <!-- RD Navbar -->
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-corporate" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-lg-stick-up="true" data-lg-stick-up-offset="118px" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xl-stick-up="true" data-xl-stick-up-offset="118px" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-xxl-stick-up-offset="118px" data-xxl-stick-up="true">
+                    <div class="rd-navbar-aside-outer">
+                        <div class="rd-navbar-aside">
+                            <h1>Lorem, ipsum.</h1>
+                            <div class="rd-navbar-panel">
+                                
+                            </div>
+                            <div class="rd-navbar-collapse">
+                                <button class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle="#rd-navbar-collapse-content-1"><span></span></button>
+                                <div class="rd-navbar-collapse-content" id="rd-navbar-collapse-content-1">
+                                  <!-- TALVEZ -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rd-navbar-main-outer">
+                        <div class="rd-navbar-main">
+                            <div class="rd-navbar-nav-wrap" id="rd-navbar-nav-wrap-1">
+                                <!-- TALVEZ -->
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Steps and Video Frame -->
+        <div class="steps-container">
+            <div class="step">
+                <h1>Passo 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, incidunt! Quas similique nobis quos tempora quidem magni, nesciunt sint iste, porro dicta ipsa rerum aperiam maiores sequi sed, exercitationem eaque.</p>
+            </div>
+            <div class="step">
+              <h1>Passo 2</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, incidunt! Quas similique nobis quos tempora quidem magni, nesciunt sint iste, porro dicta ipsa rerum aperiam maiores sequi sed, exercitationem eaque.</p>
+            </div>
+            <div class="step">
+              <h1>Passo 3</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, incidunt! Quas similique nobis quos tempora quidem magni, nesciunt sint iste, porro dicta ipsa rerum aperiam maiores sequi sed, exercitationem eaque.</p>
+            </div>
+        </div>
+
+        <iframe id="video-frame" src="https://www.youtube.com/embed/aRGdDy18qfY" title="Learn HTML iframes in 3 minutes 🖼️" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <!-- Page Footer -->
+        <footer class="section novi-background footer-advanced bg-gray-700">
+            <!-- Footer content -->
+        </footer>
+    </div>
+    <button class="back-button" onclick="window.history.back()">Voltar uma página</button>
+
+    <!-- Global Mailform Output -->
+    <div class="snackbars" id="form-output-global"></div>
+
+    <!-- Javascript -->
+    <script src="../js/core.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

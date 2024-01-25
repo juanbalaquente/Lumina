@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="pt-br">
+
+<head>
+    <title>Automação Residencial</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="../images/favicon01.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800%7CPoppins:300,400,700">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/style.css" id="main-styles-link">
+    <style>
+        /* ... (Estilos existentes permanecem inalterados) ... */
+
+        .activities-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .activity {
+            flex: 0 0 30%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .activity h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .activity p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .activity a {
+            display: block;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="preloader">
+        <div class="preloader-logo"><img src="../images/lumina04.png" alt="" width="151" height="44" srcset="../images/lumina04.png 2x"/>
+        </div>
+        <div class="preloader-body">
+          <div id="loadingProgressG">
+            <div class="loadingProgressG" id="loadingProgressG_1"></div>
+          </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <!-- Cabeçalho da Página -->
+        <header class="section novi-background page-header">
+            <!-- RD Navbar -->
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-corporate" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-lg-stick-up="true" data-lg-stick-up-offset="118px" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xl-stick-up="true" data-xl-stick-up-offset="118px" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-xxl-stick-up-offset="118px" data-xxl-stick-up="true">
+                    <div class="rd-navbar-aside-outer">
+                        <div class="rd-navbar-aside">
+                            <h1>Área de Automação Residencial</h1>
+                            <div class="rd-navbar-panel">
+                                <a href="../cursos.html"><button class="back-button">Área de Cursos</button></a>
+                            </div>
+                            <div class="rd-navbar-collapse">
+                                <button class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle="#rd-navbar-collapse-content-1"><span></span></button>
+                                <div class="rd-navbar-collapse-content" id="rd-navbar-collapse-content-1">
+                                  <button></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Atividades Disponíveis -->
+        <div class="activities-container">
+            <div class="activity">
+                <h1>Sistema de Controle de Iluminação</h1>
+                <p>Automatize o controle das luzes da sua casa para economizar energia e aumentar o conforto.</p>
+                <a href="atividades/controle-iluminacao.html">Acessar Atividade</a>
+            </div>
+            <div class="activity">
+                <h1>Gerenciamento de Temperatura</h1>
+                <p>Controle o clima da sua casa de forma inteligente, ajustando a temperatura automaticamente.</p>
+                <a href="atividades/gerenciamento-temperatura.html">Acessar Atividade</a>
+            </div>
+            <div class="activity">
+                <h1>Segurança Residencial Inteligente</h1>
+                <p>Implemente sistemas de segurança automatizados para proteger sua residência.</p>
+                <a href="atividades/seguranca-residencial.html">Acessar Atividade</a>
+            </div>
+            <!-- Adicione mais atividades conforme necessário -->
+        </div>
+
+        <!-- Rodapé da Página -->
+        <footer class="section novi-background footer-advanced bg-gray-700">
+            <!-- Conteúdo do Rodapé -->
+        </footer>
+    </div>
+
+    <!-- Saída Global do Formulário de E-mail -->
+    <div class="snackbars" id="form-output-global"></div>
+
+    <!-- Javascript -->
+    <script src="../js/core.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
